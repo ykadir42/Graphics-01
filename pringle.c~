@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(){
+  int pixels = 500;
+
+  int pic[pixels][pixels][3];
+
+  int i, j, k;
+  
+  for(i = 0; i < pixels; i++){
+    for(j = 0; i < pixels; i++){
+      for(k = 0; i < 3; i++){
+	pic[i][j][k] = 0;
+      }
+    }
+  }
+
+  fd = open("pringle.ppm", O_WRONLY | O_CREAT
+  
+  return 0;
+}
